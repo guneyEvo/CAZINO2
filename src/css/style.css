@@ -1,0 +1,738 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.navbanner {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    background-image: url(/photo/banner-bg.png);
+
+}
+
+
+nav {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    padding: 20px;
+
+}
+.right {
+    display: flex;
+    align-items: center;
+    
+    gap: 30px;
+
+}
+.navbar__item {
+    font-size: 1.6vw;
+        color: white;
+    
+    }
+.gamburger{
+    left: 10;
+    position: absolute;
+    top: 100%;
+    max-height: 0;
+    transition: .3s ease all;
+    overflow: hidden;
+}  
+.rbtn{
+    border: none;
+    background-color: transparent;
+}
+.gamburger--open{
+    max-height: 500px;
+}
+.gamburger input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+  
+} 
+ 
+ 
+.welcome{
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-top: 70px;
+    
+
+}
+.welcome h1{
+    font-size: 3.9vw;
+    margin-top: 20px;
+}
+.welcome h2{
+    font-size: 1.9vw;
+
+}
+.welcome p{
+    font-size: 1.5vw;
+    margin-top: 20px;
+    
+}
+.welcome button{
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    padding: 15px 45px;
+     border: 2px solid  white ;
+    font-size:1.2vw;
+    border-radius: 25px;
+}
+
+.aboutourcasinos {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    gap:40px ;
+    margin: 70px auto;
+
+}
+
+.aboutourcasino {
+    display: block;
+    justify-content: left;
+    width: 40%;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+
+.zagolovok {
+    display: flex;
+    gap: 5px;
+
+}
+
+.zagolovok h1 {
+    font-size: 2.1vw;
+}
+
+.text p {
+    width: 100%;
+    font-size: 1.3vw;
+    margin-top: 20px;
+}
+.wekil__container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wekil {
+    width: 80%;
+    
+}
+.wekil img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.aboutourcasino button {
+    color: white;
+    background-color: rgb(163, 58, 58);
+    padding: 15px 35px;
+    margin-top: 30px;
+    border: none;
+    font-size: 1.2vw;
+    border-radius: 25px;
+}
+
+.aboutourcasino button:hover {
+    background-color: black;
+    border-radius: 25px;
+    transition: 1s;
+}
+
+.allgames p {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.3vw;
+}
+
+.zagolovok2 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.zagolovok2 h1 {
+    font-size: 2.6vw;
+    justify-content: center;
+}
+.games{
+    display: flex;
+    justify-content: space-between;
+    height:600px ;
+    width: 85%;
+    margin-top: 50px;
+    margin-left: 98px;
+}
+.game{
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 90%;
+    gap: 20px;
+}
+.gfon1,.gfon2,.gfon3,.gfon4{
+    position: relative;
+    width: 80%;
+}
+.gfon1 img,.gfon2 img,.gfon3 img,.gfon4 img{
+    width:100% ;
+}
+.gfon1 .gametext{
+    position: absolute;
+    top: 60%;
+}
+.gfon2 .gametext{
+    position: absolute;
+    top: 53%;
+}
+.gfon3 .gametext{
+    position: absolute;
+    top: 50%;
+}
+.gfon4 .gametext{
+    position: absolute;
+    top: 40%;
+}
+.gbtn{
+   border-radius: 50%;
+    background-color: black;
+    color: white;
+    border-color: #bf3d42;
+    padding: 10px;
+    font-size: 25px; 
+}
+
+.gbtn2 button{
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    border-color: #bf3d42;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3vw;
+    
+    
+}
+.gbtn2 button:hover{
+    background-color: #bf3d42;
+}
+.gametext h1{
+    color: white;
+    font-size: 1.8vw;
+}
+.gametext p{
+    color: white;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+
+
+.ocptext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 1.3vw;
+    width:100% ;
+    
+    
+}
+.ocptext p{
+    text-align: center;
+    width: 80%;
+}
+
+.zagolovok5 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.zagolovok5 h1 {
+    font-size: 2.6vw;
+    justify-content: center;
+}
+
+.ocprice {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    
+
+}
+.bigcards{
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+.cards {
+    margin-top: 50px;
+    border: 2px solid rgb(190, 177, 177);
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.cards h3 {
+    font-size: 2.6vw;
+    color: #bf3d42;
+}
+
+.cards p {
+    font-size: 1.6vw;
+}
+
+.dollar {
+    color: #bf3d42;
+
+}
+
+.qiymet {
+    font-size: 2.6vw;
+}
+.cbtn button {
+    background-color: #bf3d42;
+    color: white;
+    padding: 15px 35px;
+    margin-top: 30px;
+    border: 3px solid  #bf3d42 ;
+    font-size: 1.3vw;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    
+
+}
+.cbtn button:hover{
+    background-color: black;
+}
+
+.howtoplaycasino {
+    background-color: black;
+    color: white;
+    height: 700px;
+    padding-top: 25px;
+}
+
+.htpctext {
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    margin-top: 30px;
+    font-size: 1.3vw;
+    width:100% ;
+    
+}.htpctext p{
+    width: 80%;
+    text-align: center;
+    
+}
+
+.zagolovok6 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.zagolovok6 h1 {
+    font-size: 2.6vw;
+    justify-content: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    
+}
+.box {
+    margin-top: 50px;
+    border: 2px solid white;
+    border-radius: 15px;
+    gap: 20px;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.bigbox {
+    text-align: center;
+}
+
+.bigbox h1 {
+    margin-top: 20px;
+}
+
+.box:hover {
+    border: 2px solid rgb(163, 58, 58);
+}
+
+.boxbtn {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+ 
+
+}
+.boxbtn button{
+    background-color: black;
+    border: 2px solid rgb(163, 58, 58);   
+    color: white;
+    padding: 15px 40px;
+    margin-top: 40px;
+    border-radius: 25px;
+    font-size: 1.3vw;
+}
+.boxbtn button:hover {
+    background-color: rgb(163, 58, 58);
+}
+.swiper{
+    position: relative;
+    height: 600px;
+    width:100%;
+    
+}
+.swiper button{
+    background-color:rgb(163, 58, 58);
+    border-radius: 50%;
+    font-size: 20px;
+    border: none;
+    padding:20px;
+}
+.swiper--left{
+position:absolute;
+transform: translateY(-50%);
+top: 50%;
+left: 95px;
+color: white;
+}
+.swiper--right{
+position:absolute;
+transform: translateY(-50%);
+top: 50%;
+right: 95px;
+color: white;
+    
+}
+.swiper--content{
+    overflow: hidden;
+}
+
+.swiper--image whatissay{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position: center;
+}
+.swiper--gtr{
+    transition: .6s ease transform;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    
+}
+
+.whatissay {
+    display: block;
+    justify-content: center;
+    
+}
+
+.zagolovok3 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.zagolovok3 h1 {
+    font-size: 2.6vw;
+    justify-content: center;
+}
+
+.jonemark {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 80px;
+}
+.jwekil{display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.jonemark p {
+    text-align: center;
+    font-size: 1.3vw;
+    
+    
+
+}
+
+.jonemark h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+.zagolovok4 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.zagolovok4 h1 {
+    font-size: 2.6vw;
+    justify-content: center;
+}
+
+.forms {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    width: 80%;
+    margin-top: 50px;
+    border-color: black;
+    border-radius: 15px;
+    background-color: #fff;
+    height: 500px;
+    align-items: center;
+    box-shadow: 0 0 10px 0 #000;
+    
+    transform: translateY(50px);
+    margin: 0 auto  
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 40%;
+
+}
+
+.form input {
+    display: flex;
+    width: 400px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: left;
+}
+
+.form button {
+    border-radius: 40px;
+    color: white;
+    background-color: rgb(163, 58, 58);
+    padding: 15px 65px;
+    margin-top: 30px;
+    border:none;
+    font-size: 1.3vw;
+
+}
+.maps{
+width: 40%;
+    
+}
+
+footer {
+    display: block;
+    padding: 50px;
+    background-color: rgb(14, 13, 13);
+
+
+
+}
+
+.inpt {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    margin-top: 70px;
+
+}
+
+.inpt input {
+    width: 600px;
+    background-color: rgb(14, 13, 13);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 20px;
+}
+
+.inpt button {
+    background-color: rgb(14, 13, 13);
+    padding: 10px 40px;
+    position: absolute;
+    color: white;
+    padding: 10px 40px;
+    position: absolute;
+    right: 100px;
+    border: none;
+}
+
+footer h5 {
+    text-align: center;
+    color: rgb(114, 106, 106);
+    font-size: 1.2vw;
+    margin-bottom: 60px;
+}
+
+footer span:hover {
+    color: white;
+
+}
+
+.xet {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.xet hr {
+    width: 20%;
+}
+
+.sosseti {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+    color: white;
+
+
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 50px;
+
+}
+
+.email {
+    display: flex;
+    gap: 15px;
+}
+
+.nomre {
+    display: flex;
+    gap: 15px;
+}
+
+.konum {
+    display: flex;
+    gap: 15px;
+}
+@media only screen and (max-width:1000px) {
+    .aboutourcasinos{
+        flex-direction: column;
+    }
+    .wekil{
+        
+    }
+}
+@media only screen and (max-width:500px) {
+    .boxes{
+        flex-direction: column;
+        width: 100%;
+        height: 800px;
+    }
+   
+}
+@media only screen and (max-width:1000px) {
+    .boxes{
+        flex-direction: column;
+        width: 100%;
+        height: 800px;
+    }
+   
+}
+@media only screen and (max-width:1000px) {
+    .forms{
+        flex-direction: column;
+        height: 800px;
+    }
+    .form,.maps{
+        width: 80%;
+    }
+   
+}
+@media only screen and (max-width:500px) {
+    .forms{
+        flex-direction: column;
+        height: 800px;
+    }
+    .form,.maps{
+        width: 80%;
+    }
+    .form input{
+        width: 200px;
+        height: 30px;
+    }
+   
+}
+@media only screen and (max-width:500px) {
+    .footer{
+        display: flex;
+    }
+    .contacts{
+        flex-direction: column;
+    }
+}
